@@ -3,7 +3,7 @@ import NewsItem from "./NewsItem";
 import Loading from "./Loading";
 import PropTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
-process.config.env;
+require('dotenv').config()
 
 const API_KEY = process.env.API_KEY;
 
